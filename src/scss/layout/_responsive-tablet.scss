@@ -1,0 +1,69 @@
+/* Pantalla 480px - 1000px */
+
+@media all and (min-width: 480px) {
+  .pagina1 {
+    background: #1d75de url(../images/premium_dancer.png) no-repeat right bottom;
+    background-size: 18rem;
+  }
+
+  .title2 {
+    width: 200px;
+    margin: 50px 50px 50px 0px;
+  }
+
+  .cabecera > .icono {
+    display: none;
+  }
+
+  .conteiner {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .description-item {
+    /* border: 2px solid saddlebrown; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    margin: 5px 5px 10px 5px;
+    text-align: center;
+  }
+
+  .description-icons {
+    width: 44%;
+    justify-content: center;
+    justify-items: center;
+    margin: 5px 5px 10px 5px;
+    text-align: center;
+  }
+
+  .menu {
+    color: black;
+    display: flex;
+    align-items: center;
+    /* text-align: justify; */
+  }
+
+  .menu-premiun,
+  .menu-registrate {
+    list-style: none;
+    display: flex;
+    color: white;
+    font-size: 11px;
+    padding-inline-start: 0px;
+  }
+
+  .menu-registrate {
+    border-left: 2px solid white;
+  }
+
+  .li {
+    margin: 8px;
+  }
+
+  .info-usuarios {
+    transform: translate(130px, -22px);
+    width: 300px;
+  }
+}

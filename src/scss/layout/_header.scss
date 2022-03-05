@@ -1,5 +1,22 @@
-.page__header {
+.menu {
+  display: none;
+}
+
+.cabecera {
   display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+  position: fixed;
+  justify-content: space-between;
+  width: 100%;
+  background-color: black;
+  z-index: 999;
+}
+
+.imagen1 {
+  margin: 10px;
+  width: 9rem;
+}
+
+.icono {
+  width: 30px;
+  // padding: 20px;
 }

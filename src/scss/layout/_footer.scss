@@ -1,8 +1,35 @@
-.page__footer {
-  position: fixed;
-  left: 0;
+.pie {
+  color: gray;
+  background: black;
+  font-size: 12px;
+  padding: 20px;
+  position: relative;
   bottom: 0;
-  width: 100vw;
-  padding: 1rem;
-  color: $color-secondary;
+  /* width: 100%; */
+}
+
+.legal,
+.cookies {
+  padding: 10px;
+}
+
+.bandera {
+  width: 30px;
+  margin: 0px 0px 0px 20px;
+}
+
+.pais {
+  display: flex;
+  justify-content: flex-end;
+  /* margin-top: 20px; */
+  margin-bottom: 10px;
+}
+
+.referencias {
+  display: flex;
+  justify-content: space-between;
+}
+
+.legal-cookies {
+  display: flex;
 }
