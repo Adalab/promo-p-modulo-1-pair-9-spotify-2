@@ -3,32 +3,25 @@
   flex-direction: column;
 }
 
-h3 {
-  font-size: 18px;
-}
-
-.premium {
+.pagina2__premium {
   font-size: 25px;
   text-align: center;
   font-weight: bold;
   padding: 30px 0;
 }
 
-.description-item {
-  font-size: 12px;
-}
-
-.imagen-icons {
-  width: 90px;
-  height: 90px;
-  margin: 0 15px 40px 15px;
-}
-
-.description-icons {
+@media all and (min-width: 480px) {
+.pagina2__premium-conteiner{
   display: flex;
-  /* flex-direction: row; */
+  flex-wrap: wrap;
+}
 }
 
-.description-p {
-  font-size: 12px;
+@media all and (min-width: 1000px) {
+
+  .pagina2__premium-conteiner{
+    display: flex;
+    flex-wrap: nowrap;
+  }
 }
+
