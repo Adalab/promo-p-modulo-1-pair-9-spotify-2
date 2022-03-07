@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/signup.css">
+    <title>Formulario de Registro</title>
+</head>
+
+<body>
+    <header class="header">
+        <img class="header__logo" src="./assets/images/logo.png" />
+        <h1>Regístrate gratis para escuchar.</h1>
+        <button>Registrarte con Facebook<a href="https://www.facebook.com/"></a></button>
+        <button>Registrarte con Google</button>
+    </header>
+    <main>
+        <h2>Registrate con tu correo electrónico</h2>
+
+        <form action="https://adalab-server-form.herokuapp.com/" method="POST">
+
+            <div>
+                <legend>¿Cuál es tu correo electrónico?</legend>
+                <!-- <label for="email">¿Cuál es tu correo electrónico?:</label> -->
+                <input id="email" name="email" type="email" placeholder="Pon tu correo electrónico" />
+            </div>
+            <div>
+                <legend>Confirma el correo electrónico?:</legend>
+                <!-- <label for="confiremail">Confirma el correo electrónico?:</label> -->
+                <input id="confiremail" name="confiremail" type="email"
+                    placeholder="Vuelve a poner tu correo electrónico" />
+            </div>
+            <div>
+                <legend>Crea una contraseña:</legend>
+                <!-- <label for="password">Crea una contraseña:</label> -->
+                <input id="password" name="password" type="password" placeholder="Pon tu correo electrónico" />
+            </div>
+            <div>
+                <legend>¿Como quieres que te llamemos:</legend>
+                <!-- <label for="name">¿Como quieres que te llamemos:</label> -->
+                <input id="name" name="name" type="text" placeholder="Pon un nombre de perfil" />
+            </div>
+
+            <input type="submit" value="Mándalo ya!" />
+    </main>
+
+</body>
+
+</html>
