@@ -1,9 +1,81 @@
-header{
-    border: 2px solid salmon;
+body {
+  margin: 0;
+  padding: 0;
 }
 
-.header__logo{
-    margin: 10px;
-    width: 9rem;
-    background-color: black;
+a {
+  text-decoration: none;
+  color: inherit;
 }
+
+header {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header__logo {
+  margin: 6% 0%;
+  width: 30%;
+  background-color: black;
+}
+
+.header__facebook {
+  padding: 1%;
+  width: 50%;
+  background-color: #3b5998;
+  border-radius: 100px;
+  color: white;
+  margin: 15px 0px;
+  font-size: 0.9em;
+}
+
+.header__google {
+  padding: 1%;
+  width: 50%;
+  border: solid 1px gray;
+  border-radius: 100px;
+  font-size: 0.9em;
+}
+
+.main {
+  &__registrate {
+    text-align: center;
+  }
+
+  &__form {
+    border: 1px solid red;
+      padding: 8% 10%;
+  }
+}
+
+.main__form-info {
+  padding: 10px;
+  width: 100%;
+}
+
+.main__form-legend {
+  padding: 10px;
+}
+
+// .main__form-legend-birthday {
+//   // display: flex;
+//   // flex-wrap: wrap;
+// }
+
+// .main__form-legend-birthday-day {
+//   // border: 1px solid red;
+//   // width: 20%;
+// }
+
+// .main__form-legend-birthday-month {
+//   // border: 1px solid purple;
+//   // width: 60%;
+// }
+
+// .main__form-legend-birthday-year {
+//   // border: 1px solid green;
+//   // width: 20%;
+// }
