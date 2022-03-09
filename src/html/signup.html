@@ -40,6 +40,7 @@
             <input class="main__form-info" id="confiremail" name="confiremail" type="email"
                 placeholder="Vuelve a poner tu correo electrónico" />
             <!-- </div>
+
             <div> -->
             <legend class="main__form-legend">Crea una contraseña:</legend>
             <!-- <label for="password">Crea una contraseña:</label> -->
@@ -47,40 +48,54 @@
                 placeholder="Pon tu correo electrónico" />
             <!-- </div>
             <div> -->
+
             <legend class="main__form-legend">¿Como quieres que te llamemos:</legend>
-            <!-- <label for="name">¿Como quieres que te llamemos:</label> -->
-            <input class="main__form-info" id="name" name="name" type="text" placeholder="Pon un nombre de perfil" />
-            <!-- </div>
-            <div> -->
+            <input class="main__form-info" id="name" name="name" type="text" placeholder="Pon un nombre de perfil"/>
+                <label for="name">Esto aparece en tu perfil.</label>
+            <!-- </div> -->
+
+            <!-- <div> -->
             <legend class="main__form-legend">¿Cuál es tu fecha de nacimiento?</legend>
+
             <div class="main__form-legend-birthday">
-                <legend>Día</legend>
-                <!-- <label for="day">Día</label> -->
-                <input class="main__form-legend-birthday-day" id="day" name="day" type="number" placeholder="DD" />
+                <div class="main__form-legend-birthday-day">
+                    <!-- <label for="day">Día</label> -->
+                    <legend for="day">Día</legend>
 
-                <label for="month">Mes</label>
-                <select class="main__form-legend-birthday-month" name="month" id="month">
-                    <option disabled selected value="">Mes</option>
-                    <option value="january">Enero</option>
-                    <option value="february">Febrero</option>
-                    <option value="march">Marzo</option>
-                    <option value="april">Abril</option>
-                    <option value="may">Mayo</option>
-                    <option value="june">Junio</option>
-                    <option value="july">Julio</option>
-                    <option value="Augost">Agosto</option>
-                    <option value="september">Septiembre</option>
-                    <option value="october">Octubre</option>
-                    <option value="november">Noviembre</option>
-                    <option value="december">Diciembre</option>
-                </select>
+                    <input id="day" name="day" type="number" placeholder="DD" />
+                </div>
 
-                <legend>Año</legend>
-                <!-- <label for="day">Año</label> -->
-                <input class="main__form-legend-birthday-year" id="year" name="year" type="number" placeholder="AAAA" />
+                <div class="main__form-legend-birthday-month">
+                    <!-- <label for="month">Mes</label> -->
+                    <legend>Mes</legend>
+                    <select name="month" id="month">
+                        <option disabled selected value="">Mes</option>
+                        <option value="january">Enero</option>
+                        <option value="february">Febrero</option>
+                        <option value="march">Marzo</option>
+                        <option value="april">Abril</option>
+                        <option value="may">Mayo</option>
+                        <option value="june">Junio</option>
+                        <option value="july">Julio</option>
+                        <option value="Augost">Agosto</option>
+                        <option value="september">Septiembre</option>
+                        <option value="october">Octubre</option>
+                        <option value="november">Noviembre</option>
+                        <option value="december">Diciembre</option>
+                    </select>
+                </div>
+
+                <div class="main__form-legend-birthday-year">
+                    <legend>Año</legend>
+                    <!-- <label for="day">Año</label> -->
+                    <input id="year" name="year" type="number" placeholder="AAAA" />
+                </div>
+
             </div>
-            <!-- </div>
-            <div> -->
+
+            <!-- </div> -->
+            <!-- <div> -->
+
             <legend class="main__form-legend">¿Cuál es tu género?</legend>
             <input type="radio" id="gender" name="gender" />
             <label for="gender">Hombre</label>

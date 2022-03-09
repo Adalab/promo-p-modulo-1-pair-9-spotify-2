@@ -1,58 +1,58 @@
 .banner {
-    display: flex;
-    color: white;
-    background: #1d75de;
-    flex-direction: column;
-    padding: 150px 15px 15px 15px;
+  display: flex;
+  color: white;
+  background: #1d75de;
+  flex-direction: column;
+  padding: 150px 15px 15px 15px;
+  width: 100vw;
 
-    & h1 {
-      margin: 0px;
-      font-size: 40px;
-    }
-    
-    & h2 {
-      font-size: 25px;
-    }
+  & h1 {
+    margin: 0px;
+    font-size: 40px;
+  }
+
+  & h2 {
+    font-size: 25px;
+  }
+
+  &__btn {
+    background: #26b758;
+    margin: 50px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__title2 {
+    font-size: 11px;
+    padding-bottom: 10px;
+  }
+}
+
+@media all and (min-width: 480px) {
+  .banner {
+    background: #1d75de url(../images/premium_dancer.png) no-repeat right bottom;
+    background-size: 18rem;
 
     &__btn {
-      background: #26b758;
-      margin: 50px;
-      text-align: center;
-      padding: 10px;
-      border-radius: 20px;
-      font-size: 12px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-
-    &__title2 {
-      font-size: 11px;
-      padding-bottom: 10px;
+      width: 200px;
+      margin: 50px 50px 50px 0px;
     }
   }
+}
 
-  @media all and (min-width: 480px) {
-    .banner {
-      background: #1d75de url(../images/premium_dancer.png) no-repeat right bottom;
-      background-size: 18rem;
-  
-      &__btn {
-        width: 200px;
-        margin: 50px 50px 50px 0px;
-      }
+@media all and (min-width: 1000px) {
+  .banner {
+    background: #1d75de url(../images/premium_dancer.png) no-repeat right bottom;
+    background-size: 18rem;
+
+    &__btn {
+      width: 200px;
+      margin: 50px 50px 50px 0px;
     }
   }
-
-
-  @media all and (min-width: 1000px) {
-    .banner {
-      background: #1d75de url(../images/premium_dancer.png) no-repeat right bottom;
-      background-size: 18rem;
-    
-      &__btn {
-        width: 200px;
-        margin: 50px 50px 50px 0px;
-      }
-    }
-  }
+}
