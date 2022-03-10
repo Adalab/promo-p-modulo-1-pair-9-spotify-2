@@ -28,98 +28,101 @@
 
         <form class="main__form" action="https://adalab-server-form.herokuapp.com/" method="POST">
 
-            <!-- <div> -->
-            <legend class="main__form-legend">¿Cuál es tu correo electrónico?</legend>
-            <!-- <label for="email">¿Cuál es tu correo electrónico?:</label> -->
-            <input class="main__form-info" id="email" name="email" type="email"
-                placeholder="Pon tu correo electrónico" />
-            <!-- </div>
-            <div> -->
-            <legend class="main__form-legend">Confirma el correo electrónico?:</legend>
-            <!-- <label for="confiremail">Confirma el correo electrónico?:</label> -->
-            <input class="main__form-info" id="confiremail" name="confiremail" type="email"
-                placeholder="Vuelve a poner tu correo electrónico" />
-            <!-- </div>
+            <div>
+                <legend class="main__form-legend">¿Cuál es tu correo electrónico?</legend>
+                <!-- <label for="email">¿Cuál es tu correo electrónico?:</label> -->
+                <input class="main__form-info" id="email" name="email" type="email"
+                    placeholder="Pon tu correo electrónico" />
+            </div>
+            <div>
+                <legend class="main__form-legend">Confirma el correo electrónico?:</legend>
+                <!-- <label for="confiremail">Confirma el correo electrónico?:</label> -->
+                <input class="main__form-info" id="confiremail" name="confiremail" type="email"
+                    placeholder="Vuelve a poner tu correo electrónico" />
+            </div>
 
-            <div> -->
-            <legend class="main__form-legend">Crea una contraseña:</legend>
-            <!-- <label for="password">Crea una contraseña:</label> -->
-            <input class="main__form-info" id="password" name="password" type="password"
-                placeholder="Pon tu correo electrónico" />
-            <!-- </div>
-            <div> -->
+            <div>
+                <legend class="main__form-legend">Crea una contraseña:</legend>
+                <!-- <label for="password">Crea una contraseña:</label> -->
+                <input class="main__form-info" id="password" name="password" type="password"
+                    placeholder="Pon tu correo electrónico" />
+            </div>
+            <div>
 
-            <legend class="main__form-legend">¿Como quieres que te llamemos:</legend>
-            <input class="main__form-info" id="name" name="name" type="text" placeholder="Pon un nombre de perfil"/>
+                <legend class="main__form-legend">¿Como quieres que te llamemos:</legend>
+                <input class="main__form-info" id="name" name="name" type="text"
+                    placeholder="Pon un nombre de perfil" />
                 <label for="name">Esto aparece en tu perfil.</label>
-            <!-- </div> -->
+            </div>
 
-            <!-- <div> -->
-            <legend class="main__form-legend">¿Cuál es tu fecha de nacimiento?</legend>
+            <div>
+                <legend class="main__form-legend">¿Cuál es tu fecha de nacimiento?</legend>
 
-            <div class="main__form-legend-birthday">
-                <div class="main__form-legend-birthday-day">
-                    <!-- <label for="day">Día</label> -->
-                    <legend for="day">Día</legend>
+                <div class="main__form-legend-birthday">
+                    <div class="main__form-legend-birthday-day">
+                        <label for="day">Día</label>
+                        <!-- <legend for="day">Día</legend> -->
 
-                    <input id="day" name="day" type="number" placeholder="DD" />
-                </div>
+                        <input class="main__form-info" id="day" name="day" type="number" placeholder="DD" min="1"
+                            max="31" />
+                    </div>
 
-                <div class="main__form-legend-birthday-month">
-                    <!-- <label for="month">Mes</label> -->
-                    <legend>Mes</legend>
-                    <select name="month" id="month">
-                        <option disabled selected value="">Mes</option>
-                        <option value="january">Enero</option>
-                        <option value="february">Febrero</option>
-                        <option value="march">Marzo</option>
-                        <option value="april">Abril</option>
-                        <option value="may">Mayo</option>
-                        <option value="june">Junio</option>
-                        <option value="july">Julio</option>
-                        <option value="Augost">Agosto</option>
-                        <option value="september">Septiembre</option>
-                        <option value="october">Octubre</option>
-                        <option value="november">Noviembre</option>
-                        <option value="december">Diciembre</option>
-                    </select>
-                </div>
+                    <div class="main__form-legend-birthday-month">
+                        <label for="month">Mes</label>
+                        <!-- <legend>Mes</legend> -->
+                        <select class="main__form-info" name="month" id="month">
+                            <option disabled selected value="">Mes</option>
+                            <option value="january">Enero</option>
+                            <option value="february">Febrero</option>
+                            <option value="march">Marzo</option>
+                            <option value="april">Abril</option>
+                            <option value="may">Mayo</option>
+                            <option value="june">Junio</option>
+                            <option value="july">Julio</option>
+                            <option value="Augost">Agosto</option>
+                            <option value="september">Septiembre</option>
+                            <option value="october">Octubre</option>
+                            <option value="november">Noviembre</option>
+                            <option value="december">Diciembre</option>
+                        </select>
+                    </div>
 
-                <div class="main__form-legend-birthday-year">
-                    <legend>Año</legend>
-                    <!-- <label for="day">Año</label> -->
-                    <input id="year" name="year" type="number" placeholder="AAAA" />
+                    <div class="main__form-legend-birthday-year">
+                        <!-- <legend>Año</legend> -->
+                        <label for="day">Año</label>
+                        <input class="main__form-info" id="year" name="year" type="number" placeholder="AAAA" />
+                    </div>
                 </div>
 
             </div>
-
-            <!-- </div> -->
-            <!-- <div> -->
-
-            <legend class="main__form-legend">¿Cuál es tu género?</legend>
-            <input type="radio" id="gender" name="gender" />
-            <label for="gender">Hombre</label>
-            <input type="radio" id="gender" name="gender" />
-            <label for="gender">Mujer</label>
-            <input type="radio" id="gender" name="gender" />
-            <label for="gender">No binario</label>
             <div>
+
+                <legend class="main__form-legend">¿Cuál es tu género?</legend>
+                <input type="radio" id="gender" name="gender" />
+                <label for="gender">Hombre</label>
+                <input type="radio" id="gender" name="gender" />
+                <label for="gender">Mujer</label>
+                <input type="radio" id="gender" name="gender" />
+                <label for="gender">No binario</label>
+                <div>
+                    <input type="checkbox" id="news" name="news">
+                    <label for="news">Quiero que me enviéis novedades y ofertas de Spotify</label>
+                </div>
+                <!-- <div> -->
                 <input type="checkbox" id="news" name="news">
-                <label for="news">Quiero que me enviéis novedades y ofertas de Spotify</label>
-            </div>
-            <!-- <div> -->
-            <input type="checkbox" id="news" name="news">
-            <label for="news">Compartir mis datos de registro con los proveedores de contenidos de Spotify para
-                fines de marketing. ten en cuenta que tus datos pueden ser transferidos a un país de fuera del
-                EEE, tal y como se recoge en nuestra Política de Privacidad.
-            </label>
-            <!-- </div>
+                <label for="news">Compartir mis datos de registro con los proveedores de contenidos de Spotify para
+                    fines de marketing. ten en cuenta que tus datos pueden ser transferidos a un país de fuera del
+                    EEE, tal y como se recoge en nuestra Política de Privacidad.
+                </label>
+                <!-- </div>
             </div> -->
-            <div>
-                <input type="submit" value="Registrate" />
-            </div>
-            <legend class="main__form-legend">¿Ya tienes cuenta?<a href="https://accounts.spotify.com/es/login">Inicia
-                    sesión</a></legend>
+                <div>
+                    <input type="submit" value="Registrate" />
+                </div>
+                <legend class="main__form-legend">¿Ya tienes cuenta?<a
+                        href="https://accounts.spotify.com/es/login">Inicia
+                        sesión</a></legend>
+        </form>
     </main>
 
 </body>

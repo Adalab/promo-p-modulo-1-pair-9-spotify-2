@@ -51,33 +51,36 @@ header {
   }
 }
 
-.main__form-info {
-  // padding: 10px;
+// .main__form-info {
+//   padding: 10px;
+//   width: 100%;
+// }
+
+// .main__form-legend {
+//   padding: 10px;
+//   font-weight: 600;
+// }
+
+// .main__form-legend-birthday {
+//  display: grid;
+//  grid-template-columns: 20% 50% 20%;
+//  grid-gap: 10px;
+//  border: 1px solid red;
+// }
+
+// .main__form-legend-birthday{
+// border: 1px solid green;
+// display: grid;
+// }
+
+
+.main__form-legend-birthday{
   width: 100%;
-}
-
-.main__form-legend {
-  padding: 10px;
-  font-weight: 600;
-}
-
-.main__form-legend-birthday {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  width: 100%;
+  grid-template-columns: 20% 50% 25%;
+  grid-gap: 20px;
 }
 
-// .main__form-legend-birthday-day {
-//   // border: 1px solid red;
-//   // width: 20%;
-// }
-
-// .main__form-legend-birthday-month {
-//   // border: 1px solid purple;
-//   // width: 60%;
-// }
-
-// .main__form-legend-birthday-year {
-//   // border: 1px solid green;
-//   // width: 20%;
-// }
+.main__form-info{
+  width: 100%;
+}
